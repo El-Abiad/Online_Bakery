@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/update-product.css">
+    <title>Admin Update</title>
+</head>
+<body>
+    <header><h1>Admin Update</h1> </header>
+    <div class="form-container">
+        <h2>Update Product</h2>
+        <form>
+            <label>Update Product Name</label>
+            <input type="text" required value="Apple Pie">
+
+            <label>Update Product Description</label>
+            <input type="text" required value="Apple Pie with sweet apple filling ">
+
+            <label>Update Product Id</label>
+            <input type="number" required value="10" readonly>
+
+            <label>Update Category</label>
+            <input type="text" required value="Pies">
+
+            <label>Update Price</label>
+            <input required type="number" step="0.1" min ="0" value="6.50">
+
+            <button type="submit"><a href="./admin-dash.html">Update</a></button>
+        </form>
+    </div>
+</body>
+</html>
