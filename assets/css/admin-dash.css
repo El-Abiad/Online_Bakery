@@ -33,12 +33,10 @@ nav  a {
 header nav ul li a:hover{
     color:#E67E22;
 }
-/* end header */
-/* start landing */
 .landing {
     background-image: url(../images/Bakery\ Design.jpg);
-    background-size: cover;   /* fills the entire container */
-    background-position:center; /* keeps it centered */
+    background-size: cover;   
+    background-position:center; 
     width: 100%;
     height: calc(100vh - 60px);
     color: #333333;
@@ -70,7 +68,7 @@ header nav ul li a:hover{
     color: #eeeeee;
     font-size: 18px;
 }
-/* end landing */
+
 .container {
     display:flex;
     justify-content: center;
