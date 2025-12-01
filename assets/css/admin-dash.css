@@ -129,13 +129,6 @@ header nav ul li a:hover{
 .managebtn:hover{
     background-color: #45a049;
 }
-footer{
-    text-align: center;
-    padding: 15px;
-    background-color: black;
-    color:white;
-}
-
 a{
     text-decoration: none;
     color: white;
